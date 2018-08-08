@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.lemonpie</groupId>
-    <artifactId>LemonPie</artifactId>
+    <artifactId>LemonPieMaster</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
@@ -15,12 +15,12 @@
     </properties>
 
     <modules>
-        <module>BeddoControl</module>
-        <module>BeddoDirector/Control</module>
-        <module>BeddoFakeFabrik</module>
-        <module>BeddoMischer</module>
-        <module>BeddoTally/Master</module>
-        <module>BeddoCommon</module>
+        <module>../BeddoControl</module>
+        <module>../BeddoDirector/Control</module>
+        <module>../BeddoFakeFabrik</module>
+        <module>../BeddoMischer</module>
+        <module>../BeddoTally/Master</module>
+        <module>../BeddoCommon</module>
     </modules>
 
     <build>
