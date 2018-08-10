@@ -16,10 +16,10 @@
 
     <modules>
         <module>../BeddoControl</module>
-        <module>../BeddoDirector/Control</module>
+        <module>../BeddoDirector/DirectorControl</module>
         <module>../BeddoFakeFabrik</module>
         <module>../BeddoMischer</module>
-        <module>../BeddoTally/Master</module>
+        <module>../BeddoTally/TallyMaster</module>
         <module>../BeddoCommon</module>
     </modules>
 
