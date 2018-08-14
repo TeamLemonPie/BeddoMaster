@@ -32,7 +32,7 @@
         <sqlite-jdbc.version>3.23.1</sqlite-jdbc.version>
 
         <atembridge.version>1.1.0</atembridge.version>
-        <obsbridge.version>1.1.0</obsbridge.version>
+        <obsbridge.version>1.1.1</obsbridge.version>
         <beddotallymiddleware.version>1.0.0</beddotallymiddleware.version>
 
         <jni4net.j.version>0.8.8.0</jni4net.j.version>
