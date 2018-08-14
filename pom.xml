@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <common.version>1.0.1-SNAPSHOT</common.version>
-        <utils.version>1.6.4</utils.version>
+        <utils.version>1.6.5</utils.version>
         <network.version>1.0.0</network.version>
         <logger.version>1.2.1</logger.version>
 
