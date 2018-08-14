@@ -32,7 +32,7 @@
         <sqlite-jdbc.version>3.23.1</sqlite-jdbc.version>
 
         <atembridge.version>1.1.0</atembridge.version>
-        <obsbridge.version>1.0.0</obsbridge.version>
+        <obsbridge.version>1.1.0</obsbridge.version>
         <beddotallymiddleware.version>1.0.0</beddotallymiddleware.version>
 
         <jni4net.j.version>0.8.8.0</jni4net.j.version>
@@ -64,19 +64,6 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>libUtils</name>
-            <url>https://maven.thecodelabs.de/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>libUtils</name>
-            <url>https://maven.thecodelabs.de/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <dependencies>
         <dependency>
             <groupId>de.tobias</groupId>
@@ -101,10 +88,23 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>TheCodeLabs-releases</name>
+            <url>https://maven.thecodelabs.de/artifactory/TheCodeLabs-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>TheCodeLabs-snapshots</name>
+            <url>https://maven.thecodelabs.de/artifactory/TheCodeLabs-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <repositories>
         <repository>
-            <id>releases</id>
-            <url>https://maven.thecodelabs.de/nexus/content/repositories/releases</url>
+            <id>central</id>
+            <url>https://maven.thecodelabs.de/artifactory/TheCodeLabs-release</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -114,7 +114,7 @@
         </repository>
         <repository>
             <id>snapshots</id>
-            <url>https://maven.thecodelabs.de/nexus/content/repositories/snapshots</url>
+            <url>https://maven.thecodelabs.de/artifactory/TheCodeLabs-snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
