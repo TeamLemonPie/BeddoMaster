@@ -18,7 +18,7 @@
         <logger.version>1.2.1</logger.version>
 
         <libLogger-slf4j.version>1.0.2</libLogger-slf4j.version>
-        <tools.version>1.0.0</tools.version>
+        <tools.version>1.1.0</tools.version>
 
         <spark-core.version>2.7.2</spark-core.version>
         <spark-template-freemarker.version>2.7.1</spark-template-freemarker.version>
