@@ -12,10 +12,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
         <common.version>1.0.1-SNAPSHOT</common.version>
-        <utils.version>1.6.5</utils.version>
-        <network.version>1.0.0</network.version>
-        <logger.version>1.2.1</logger.version>
+
+        <libUtils.version>1.7.0-SNAPSHOT</libUtils.version>
+        <libNetwork.version>1.0.0</libNetwork.version>
+        <libStorage.version>1.3.0</libStorage.version>
 
         <libLogger-slf4j.version>1.0.2</libLogger-slf4j.version>
         <tools.version>1.1.0</tools.version>
@@ -68,17 +70,17 @@
         <dependency>
             <groupId>de.tobias</groupId>
             <artifactId>libUtils</artifactId>
-            <version>${utils.version}</version>
+            <version>${libUtils.version}</version>
         </dependency>
         <dependency>
             <groupId>de.tobias</groupId>
             <artifactId>libNetwork</artifactId>
-            <version>${network.version}</version>
+            <version>${libNetwork.version}</version>
         </dependency>
         <dependency>
             <groupId>de.tobias</groupId>
             <artifactId>libStorage</artifactId>
-            <version>${logger.version}</version>
+            <version>${libStorage.version}</version>
         </dependency>
 
         <dependency>
