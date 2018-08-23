@@ -50,6 +50,7 @@
         <module>../BeddoMischer</module>
         <module>../BeddoTally/TallyMaster</module>
         <module>../BeddoCommon</module>
+        <module>../BeddoDirector/libBroadcaster</module>
     </modules>
 
     <build>
