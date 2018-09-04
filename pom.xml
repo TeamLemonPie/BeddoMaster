@@ -25,6 +25,7 @@
 
         <spark-core.version>2.7.2</spark-core.version>
         <spark-template-freemarker.version>2.7.1</spark-template-freemarker.version>
+        <websocket-client.version>9.4.12.RC2</websocket-client.version>
 
         <jackson-core.version>2.9.6</jackson-core.version>
         <jackson-databind.version>2.9.6</jackson-databind.version>
