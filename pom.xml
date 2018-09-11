@@ -13,19 +13,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <common.version>1.0.1-SNAPSHOT</common.version>
+        <common.version>${project.version}</common.version>
 
-        <libUtils.version>1.7.0-SNAPSHOT</libUtils.version>
-        <libNetwork.version>1.0.0</libNetwork.version>
+        <libUtils.version>1.6.6</libUtils.version>
+        <libNetwork.version>1.0.1</libNetwork.version>
         <libStorage.version>1.3.0</libStorage.version>
-        <libMidi.version>1.0.2-SNAPSHOT</libMidi.version>
+        <libMidi.version>1.1.2</libMidi.version>
 
-        <libLogger-slf4j.version>1.0.2</libLogger-slf4j.version>
+        <libLogger-slf4j.version>1.0.3</libLogger-slf4j.version>
         <tools.version>1.1.0</tools.version>
 
         <spark-core.version>2.7.2</spark-core.version>
         <spark-template-freemarker.version>2.7.1</spark-template-freemarker.version>
         <websocket-client.version>9.4.12.RC2</websocket-client.version>
+        <httpclient.version>4.5.6</httpclient.version>
 
         <jackson-core.version>2.9.6</jackson-core.version>
         <jackson-databind.version>2.9.6</jackson-databind.version>
@@ -37,7 +38,7 @@
 
         <atembridge.version>1.1.0</atembridge.version>
         <beddotallymiddleware.version>1.0.0</beddotallymiddleware.version>
-        <libBroadcaster.version>1.0.1-SNAPSHOT</libBroadcaster.version>
+        <libBroadcaster.version>${project.version}</libBroadcaster.version>
 
         <jni4net.j.version>0.8.8.0</jni4net.j.version>
 
