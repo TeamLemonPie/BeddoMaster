@@ -26,8 +26,6 @@
         <spark-core.version>2.7.2</spark-core.version>
         <spark-template-freemarker.version>2.7.1</spark-template-freemarker.version>
         <websocket-client.version>9.4.12.RC2</websocket-client.version>
-        <httpclient.version>4.5.6</httpclient.version>
-        <commons-codec.version>1.11</commons-codec.version>
 
         <jackson-core.version>2.9.6</jackson-core.version>
         <jackson-databind.version>2.9.6</jackson-databind.version>
@@ -36,12 +34,6 @@
         <ormlite-core.version>5.1</ormlite-core.version>
         <ormlite-jdbc.version>5.1</ormlite-jdbc.version>
         <sqlite-jdbc.version>3.23.1</sqlite-jdbc.version>
-
-        <atembridge.version>1.1.4</atembridge.version>
-        <beddotallymiddleware.version>1.0.0</beddotallymiddleware.version>
-        <libBroadcaster.version>1.1.0</libBroadcaster.version>
-
-        <jni4net.j.version>0.8.8.0</jni4net.j.version>
 
         <junit.version>4.12</junit.version>
         <assertj-core.version>3.10.0</assertj-core.version>
@@ -53,8 +45,6 @@
         <module>../BeddoMischer</module>
         <module>../BeddoCommon</module>
 
-        <module>../BeddoTally/TallyMaster</module>
-        <module>../BeddoDirector</module>
         <module>../BeddoManager</module>
     </modules>
 
