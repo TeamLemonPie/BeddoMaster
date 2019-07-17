@@ -8,8 +8,6 @@ BeddoMaster is a repository containing only the root maven pom.xm for all repos 
 #### Third Party Libraries
 
 * com.google.code.gson:gson:2.8.0 (Apache 2.0)
-
-
 * de.tobias:libUtils:1.6.7
 * de.tobias:libNetwork:1.0.1
 * de.tobias:libStorage:1.3.0
